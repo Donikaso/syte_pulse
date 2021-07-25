@@ -1,0 +1,26 @@
+.advantages {
+    padding: 69px 0 82px 0;
+    background-color: #f6f6f6;
+    &__wrapper {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    &__icons {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+    }
+    &__icon {
+        width: 240px;
+        text-align: center;
+        img {
+            margin: 0 auto;
+            margin-bottom: 47px;
+        }
+    }
+    &__link {
+        color: #ff0000;
+    }
+    
+}
